@@ -1,6 +1,8 @@
 this is a open source project originally by savekillqqp and i do not make any money with this i made it for fun.
 this is a virtual assistant without any paid subscriptions like openai or anything like that all it uses are python and some python packages which will all install when you click on install dependencies. its currently available in the ENGLISH and German language as can be seen by the EN and DE files (EN = english and DE = deutsch/German)
 
+windows defender can cause issues with the assistant for some reason so you should disable it
+
 please install the VoiceAssistant.zip file
 
 to properly get it to work please use the installDepends in your language for english press the installDependsEN.bat for german InstallDependsDE.bat it will then install python if you do not yet have it and all of the python packages and libraries. the libraries include:
