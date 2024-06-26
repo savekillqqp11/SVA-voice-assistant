@@ -1,5 +1,5 @@
 from unittest import result
-import pyttsx3 # C:/Users/trist/AppData/Local/Microsoft/WindowsApps/python3.10.exe -m pip install pyttsx3
+import pyttsx3 # C:/Users/username/AppData/Local/Microsoft/WindowsApps/python3.10.exe -m pip install pyttsx3
 import speech_recognition as sr  # pip install SpeechRecognition
 import datetime  # pip install DateTime
 import os  # pip install os-sys
@@ -256,7 +256,7 @@ if __name__ == "__main__":
             
         elif "open impact" in query:
             speak("öffne genshin impact")
-            location = r"D:\\Games\\genshin\\Genshin Impact game\\GenshinImpact.exe"
+            location = r"D:\\Path\\to\\genshin impact game"
             if os.path.exists(location):
                 speak("Genshin Impact wird geöffnet!")
                 genshin = subprocess.Popen(location)
@@ -286,7 +286,7 @@ if __name__ == "__main__":
         elif "discord" in query:
             speak("Öffne Discord")
             print(result)
-            location = r"C:\Users\trist\AppData\Local\Discord\app-1.0.9148\Discord.exe" #in case of path not found please change trist to your user folder name :D
+            location = r"C:\Users\username\AppData\Local\Discord\app-1.0.9148\Discord.exe" #in case of path not found please change trist to your user folder name :D
             if os.path.exists(location):
                 speak("Genshin Impact wird geöffnet!")
                 genshin = subprocess.Popen(location)
