@@ -3,6 +3,8 @@ this is a virtual assistant without any paid subscriptions like openai or anythi
 
 windows defender can cause issues with the assistant for some reason so you should disable it
 
+windows defender WILL tell you its malware mainly because it uses .bat files to install the dependencies im trying to convert these bat files into something else to make the install easier and hopefully not make windows yell at you for trying to install it
+
 please install the VoiceAssistant.zip file
 
 to properly get it to work please use the installDepends in your language for english press the installDependsEN.bat for german InstallDependsDE.bat it will then install python if you do not yet have it and all of the python packages and libraries. the libraries include:
